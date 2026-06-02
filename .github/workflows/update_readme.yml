@@ -3,11 +3,17 @@ name: Update Project Count
 on:
   push:
     branches:
-      - main  # or 'master', depending on your default branch
+      - main          # triggers on every push to main
+  workflow_dispatch:  # allows manual trigger from GitHub UI
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
+    # Required so the action can write back to the repo
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -25,6 +31,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          # Only commit if the README has actually changed
-          git commit -m "docs: auto-update project count" || exit 0
+          # Only commit if README actually changed (exit 0 skips if nothing changed)
+          git diff --cached --quiet && echo "No changes to commit" || \
+          git commit -m "docs: auto-update project count [skip ci]"
           git push

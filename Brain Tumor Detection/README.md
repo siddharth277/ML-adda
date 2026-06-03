@@ -18,12 +18,6 @@ The Brain Tumor Detection project aims to develop a deep learning model to class
 ### Project Directory Structure
 ```
 Brain Tumor Detection
-|- Dataset
-  |- Training Folder
-  |- Testing Folder
-  |- README.md
-|- Images
-  |- EDA README.md
 |- Model
   |- brain_tumor.ipynb
   |- README.md

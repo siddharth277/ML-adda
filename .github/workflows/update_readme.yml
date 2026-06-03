@@ -1,0 +1,37 @@
+name: Update Project Count
+
+on:
+  push:
+    branches:
+      - main          # triggers on every push to main
+  workflow_dispatch:  # allows manual trigger from GitHub UI
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    # Required so the action can write back to the repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run Counting Script
+        run: python update_count.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          # Only commit if README actually changed (exit 0 skips if nothing changed)
+          git diff --cached --quiet && echo "No changes to commit" || \
+          git commit -m "docs: auto-update project count [skip ci]"
+          git push

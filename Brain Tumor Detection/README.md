@@ -54,7 +54,7 @@ Brain Tumor Detection
 #### Convolutional Neural Network (CNN)
 
 - **Classification Report**  
-   ```
+   
                    precision    recall  f1-score   support
 
       glioma       0.91      0.64      0.75       212
@@ -65,12 +65,12 @@ Brain Tumor Detection
     accuracy                           0.76       800
    macro avg       0.79      0.76      0.74       800
 weighted avg       0.79      0.76      0.74       800
-   ```
+   
 
 #### Multilayer Perceptron (MLP) Based on TensorFlow
 
 - **Classification Report**  
-   ```
+   
                precision    recall  f1-score   support
 
       glioma       0.62      0.58      0.60       212
@@ -85,7 +85,7 @@ weighted avg       0.62      0.61      0.61       800
 
 #### VGG16 Transfer Learning Model
 
-   ```
+   
                  precision    recall  f1-score   support
 
       glioma       0.98      0.60      0.75       212
@@ -96,5 +96,5 @@ weighted avg       0.62      0.61      0.61       800
     accuracy                           0.84       800
    macro avg       0.85      0.85      0.84       800
 weighted avg       0.86      0.84      0.83       800
-   ```
+   
 

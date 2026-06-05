@@ -18,7 +18,7 @@ Any contribution is accepted, from fixing grammatical mistakes to implementing c
 
 Following are the steps to guide you:
 
-* Step 1: Star the repo then Fork the repo and Go to your Git terminal and  clone it on your machine.
+* Step 1: Star the repo then Fork the repo and Go to your Git terminal and  clone it on your device.
 * Step 2: Add a upstream link to main branch in your cloned repo
     ```
     git remote add upstream https://github.com/siddharth277/ML-adda.git

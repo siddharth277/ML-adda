@@ -37,7 +37,9 @@ Preprocessing of the dataset:
 **results(accuracy)**
 
 SVC: 91.17%
+
 Decision Tree: 83.8%
+
 Naive Bayes: 67%
 
 

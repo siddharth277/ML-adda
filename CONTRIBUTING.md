@@ -1,4 +1,4 @@
-# Contributing Guidelines
+# 😃 Contributing Guidelines
 
 I'm happy to welcome all the contributions from anyone willing to add new scripts to this repository. Thank you for helping out and remember,
 **no contribution is too small.**

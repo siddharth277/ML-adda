@@ -43,6 +43,11 @@ Decision Tree: 83.8%
 Naive Bayes: 67%
 
 
+
+```
+
 author - Siddharth Shukla
 
 GitHub: github.com/siddharth277
+
+```

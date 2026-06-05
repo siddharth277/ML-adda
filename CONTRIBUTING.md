@@ -47,7 +47,6 @@ Following are the steps to guide you:
 > - Do not edit/delete someone else's code in this repository. You can only insert new files/folder in this repository.
 
 > - Give a meaningful name to whatever file or folder you are adding, for e.g., if you have written a Python code on Hello World, then hello_world.py is one example of valid name.
-> - 
 
 
 🎉 🎊 😃 Happy Contributing 😃 🎊 🎉

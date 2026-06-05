@@ -1,20 +1,20 @@
-# 🎇Contributing Guidelines
+# Contributing Guidelines
 
 I'm happy to welcome all the contributions from anyone willing to add new scripts to this repository. Thank you for helping out and remember,
 **no contribution is too small.**
 
 
-## 💻Before Contributing
+## Before Contributing
 
 Welcome to [ML-ADDA]([https://github.com/siddharth277/ML-adda]). Before sending your pull requests, make sure that you **read the whole guidelines**. If you have any doubt on the contributing guide, please feel free to reach out.
 
 
-## 🙌Contribution
+## Contribution
 
 Any contribution is accepted, from fixing grammatical mistakes to implementing complex python scripts OR adding new ML projects. Please read this section if you are contributing your work.
 
 
-## 🔖Steps to Contribute
+## Steps to Contribute
 
 Following are the steps to guide you:
 
@@ -42,7 +42,7 @@ Following are the steps to guide you:
 * Step 7: Create a PR on Github. (Don't just hit the create a pull request button, you must write a PR message to clarify why and what are you contributing)
 
 
-## 🔨Note:
+## Note:
 
 > - Do not edit/delete someone else's code in this repository. You can only insert new files/folder in this repository.
 

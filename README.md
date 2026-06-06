@@ -1,6 +1,6 @@
 # 🌟 ML-adda: Hands-on ML from Basic to Advance 🌟
 
-###  Currently Hosting: <!-- PROJECT_COUNT -->**10 Projects**<!-- END_PROJECT_COUNT -->
+###  Currently Hosting: <!-- PROJECT_COUNT -->**11 Projects**<!-- END_PROJECT_COUNT -->
 
 Welcome to **ML-adda**!!! This repository is a comprehensive collection of machine learning projects and resources, ranging from beginner to advanced levels. It covers a variety of topics, from basic machine learning concepts to deep learning.
 

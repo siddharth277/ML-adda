@@ -41,6 +41,9 @@ Mean accuracy  : 0.6115
 Std deviation  : 0.0679
 ```
 
+<img src="model_comparison.png" alt="Model Comparison" width="600">
+
+
 ## 📢 Conclusion
 The GAN-based art generator effectively creates unique, visually appealing art-like images, demonstrating promising results across multiple model architectures. Fine-tuning the model could lead to even more sophisticated outputs.
 

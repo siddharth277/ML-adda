@@ -70,8 +70,8 @@ The dataset used in this project is from kaghle , link - https://www.kaggle.com/
 
 Our baseline Logistic Regression model gave very poor results in both F1 and precision scores.
 
-roc_auc (baseline model = Logistic Regression) = 
-roc_auc (ANN) =
+roc_auc (baseline model = Logistic Regression) = 94.63
+roc_auc (ANN) = 91.79
 
 
 
